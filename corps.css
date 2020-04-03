@@ -1,0 +1,73 @@
+body
+{
+    background-image: url(images/background/bg.jpg);
+    font-size: 25px;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encadre
+{
+    border: 5px black solid;
+    text-align: center;
+    width: 50%;
+    display: block;
+    background-color: rgba(143, 143, 143, 0.616);
+    margin-top: 50px;
+}
+
+.boutons
+{
+    width: 30%; 
+}
+
+.circle
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.profil-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profil
+{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 200px;
+    background-color: rgba(104, 104, 104, 0.568);
+    border: grey solid 2px;
+}
+
+.profil-item
+{
+    display: block;
+}
+
+.carac
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
