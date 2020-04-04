@@ -17,6 +17,7 @@ body {
     display: block;
     background-color: rgba(143, 143, 143, 0.616);
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 .boutons {
